@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Areeb Animation</title>
+    <style>
+        body {
+            background: #080820;
+            color: cyan;
+            text-align: center;
+            font-family: Arial;
+            padding-top: 100px;
+        }
+
+        h1 {
+            animation: glow 1s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 5px cyan; }
+            to { text-shadow: 0 0 25px cyan; }
+        }
+
+        .flower {
+            font-size: 70px;
+            animation: spin 4s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Areeb's Website</h1>
+    <div class="flower">🌹</div>
+    <p>My dream is to become a Software Engineer</p>
+</body>
+</html>
